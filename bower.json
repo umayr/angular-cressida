@@ -1,0 +1,28 @@
+{
+  "name": "angular-cressida",
+  "version": "0.1.0",
+  "homepage": "https://github.com/umayr/angular-cressida",
+  "authors": [
+    "Umayr Shahid <umayrr@hotmail.co.uk>"
+  ],
+  "description": "Angular wrapper over cressida message generator library.",
+  "main": "release/angular-cressida.min.js",
+  "keywords": [
+    "angular",
+    "cressida",
+    "error messages",
+    "message generator",
+    "angular module"
+  ],
+  "dependencies": {
+    "angular": ">= 1.0.8"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
