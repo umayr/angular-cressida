@@ -1,0 +1,36 @@
+{
+  "name": "angular-cressida",
+  "version": "0.1.0",
+  "description": "Angular wrapper over cressida message generator library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"no tests are specified\" && exit 1;",
+    "compressed": "./node_modules/.bin/webpack index.js release/angular-cressida.min.js -p --bail --progress",
+    "source": "./node_modules/.bin/webpack index.js release/angular-cressida.js --bail --progress",
+    "clean": "rm -rf release/",
+    "build": "npm run clean && npm run source && npm run compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umayr/angular-cressida.git"
+  },
+  "keywords": [
+    "angular",
+    "cressida",
+    "error messages",
+    "message generator",
+    "angular module"
+  ],
+  "author": "Umayr Shahid <umayrr@hotmail.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/umayr/angular-cressida/issues"
+  },
+  "homepage": "https://github.com/umayr/angular-cressida#readme",
+  "dependencies": {
+    "cressida": "^0.3.0"
+  },
+  "devDependencies": {
+    "webpack": "^1.12.1"
+  }
+}
