@@ -1,4 +1,4 @@
-#### `Angular-Cressida`
+#### Angular Cressida
 > Angular wrapper over [cressida](https://github.com/umayr/cressida) message generator library.
 
 Since cressida is written for nodejs, so its quite pain in the ass to use it in browser applications yet alone within angular. So, `angular-cressida` serves this purpose.
