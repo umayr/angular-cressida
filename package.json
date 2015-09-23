@@ -1,6 +1,6 @@
 {
   "name": "angular-cressida",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Angular wrapper over cressida message generator library.",
   "main": "index.js",
   "scripts": {
