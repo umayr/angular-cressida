@@ -9,11 +9,6 @@ if (typeof module !== "undefined" && typeof exports !== "undefined" && module.ex
 (function (window, angular) {
   'use strict';
 
-  // Polyfill for array.include
-  Array.prototype.includes = function (value) {
-    return this.indexOf(value) > -1;
-  }
-
   var cressida = require('cressida');
 
   module.exports = angular
