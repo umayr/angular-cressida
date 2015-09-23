@@ -55,11 +55,6 @@
 	(function (window, angular) {
 	  'use strict';
 
-	  // Polyfill for array.include
-	  Array.prototype.includes = function (value) {
-	    return this.indexOf(value) > -1;
-	  }
-
 	  var cressida = __webpack_require__(1);
 
 	  module.exports = angular
