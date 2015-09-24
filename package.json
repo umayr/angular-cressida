@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/umayr/angular-cressida#readme",
   "dependencies": {
-    "cressida": "^0.3.0"
+    "cressida": "^0.4.0"
   },
   "devDependencies": {
     "webpack": "^1.12.1"
